@@ -1,0 +1,290 @@
+Q1)
+class One
+{
+  public static void main(String args[])
+  {
+    System.out.println("Hello");
+	System.out.println("Maswood Raza");
+  }
+}
+
+Q2)
+class Variable
+{
+  public static void main(String args[])
+  {
+    int a = 67;
+	int b = 33;
+	int sum;
+	sum = a+b;
+	System.out.println(sum);
+  }
+}
+
+Q3)
+class Division
+{
+  public static void main(String args[])
+  {
+  int a= 50;
+  int b= 3;
+  int div = a/b;
+  System.out.println(div);
+  }
+ }
+
+Q4)
+class Operations
+{
+ public static void main(String args[])
+ {
+  int a = -5, b=8, c= 6;
+  int d=55, e=9;
+  int f=20, g=-3, h=5,i=15;
+  int j=3, k=2;
+  
+  int w = a+b*c;
+  int x = (d+e)%e;
+  int y = f+g*h/b;
+  int z = h+i/j*k-b%j;
+  
+  System.out.println(w);
+  System.out.println(x);
+  System.out.println(y);
+  System.out.println(z);
+  }
+ }
+ 
+ Q5)
+ import java.util.Scanner; // Import the Scanner class
+
+class Five
+ {
+  public static void main(String[] args)
+  {
+    Scanner sc = new Scanner(System.in);  // Create a Scanner object
+    System.out.println("Enter First Number");
+	int n1 = sc.nextInt();  // Read user input
+	
+	System.out.println("Enter Second Number");
+	int n2 = sc.nextInt();  // Read user input
+	
+	int r = n1*n2;
+    System.out.println("Result is "+r);  // Output user input
+  }
+}
+
+Q6)
+import java.util.Scanner; // Import the Scanner class
+
+class Six
+ {
+  public static void main(String[] args)
+  {
+    Scanner sc = new Scanner(System.in);  // Create a Scanner object
+    System.out.println("Enter First Number");
+	int n1 = sc.nextInt();  // Read user input
+	
+	System.out.println("Enter Second Number");
+	int n2 = sc.nextInt();  // Read user input
+	
+	int sum = n1+n2;
+    System.out.println("Result is "+sum);	// Output user input
+	
+	int sub = n1-n2;
+    System.out.println("Result is "+sub);
+	
+	int mul = n1*n2;
+    System.out.println("Result is "+mul);
+	
+	int div = n1/n2;
+    System.out.println("Result is "+div);
+	
+	int rem = n1%n2;
+    System.out.println("Result is "+rem);
+  }
+}
+
+Q7)
+
+import java.util.Scanner;
+
+class Table
+{
+ public static void main(String args[])
+ {
+   int i;
+   Scanner sc = new Scanner(System.in);
+   System.out.println("Enter A Number");
+   int x = sc.nextInt();
+   
+   for (i=1; i<=10; i++)
+   System.out.println(x+ " * " +i+ " = " +(x*i));
+  }
+}  
+
+Q8)
+
+class Pattern
+{
+ public static void main(String args[])
+  {
+	System.out.println("   J     a  v      v  a");
+	System.out.println("   J    a a  v    v  a a");
+	System.out.println("J  J   aaaaa  V  V  aaaaa");
+	System.out.println(" JJ   a     a  V   a     a");
+  }
+}
+
+Q9)
+class Expression
+{
+ public static void main(String args[])
+ {
+  double d1= 25.5, d2= 3.5, d3= 40.5, d4= 4.5, dr;
+  
+  dr = ((d1*d2-d2*d2)/(d3-d4));
+  System.out.println(dr);
+  }
+ } 
+ 
+ Q10)
+ 
+ class Expr
+{
+ public static void main(String args[])
+ {
+  float f1=4.0f, f2=1.0f;
+  double dr;
+  int a=3, b=5, c=7, d=9, e=11, f=1;
+  
+  dr = f1*(f-(f2/a)+(f2/b)-(f2/c)+(f2/d)-(f2/e));
+  System.out.println(dr);
+  }
+ } 
+ 
+ Q11)
+class Area
+{
+ public static void main(String args[])
+ {
+  double pi=22.0/7,a;
+  float r = 7.5f;
+  
+  a = pi*r*r;
+  System.out.println(a);
+  }
+ }  
+
+ 
+ Q12)
+ 
+ import java.util.Scanner;
+class Avg
+{
+ public static void main(String args[])
+ {
+	 float f;
+  Scanner sc = new Scanner(System.in);
+   System.out.println("Enter Fisrt Number");
+   float f1 = sc.nextFloat();
+   
+   
+   System.out.println("Enter Second Number");
+    float f2 = sc.nextFloat();
+   
+ 
+   System.out.println("Enter Third Number");
+    float f3 = sc.nextFloat();
+  
+   f= (f1+f2+f3)/3;
+   System.out.println("The Average Is " +f);
+  }
+ } 
+ 
+ Q13)
+ 
+ import java.util.Scanner;
+class AP
+{
+ public static void main(String args[])
+ {
+	 float w=5.5f, h=8.5f,a, p;
+	 
+	 a = w*h;
+	 p = 2*(w+h);
+
+   System.out.println("Area Is "+w+ " * "+h+" = " +a);
+   System.out.println("Perimeter Is 2*("+w+ " * "+h+") = " +p);
+  }
+ } 
+ 
+ Q14)
+ 
+ class Flag
+ {
+  public static void main(String[] args)
+    {
+        System.out.println("* * * * * * ==================================");
+        System.out.println(" * * * * *  ==================================");
+        System.out.println("* * * * * * ==================================");
+        System.out.println(" * * * * *  ==================================");
+        System.out.println("* * * * * * ==================================");
+        System.out.println(" * * * * *  ==================================");
+        System.out.println("* * * * * * ==================================");
+        System.out.println(" * * * * *  ==================================");
+        System.out.println("* * * * * * ==================================");
+        System.out.println("==============================================");
+        System.out.println("==============================================");
+        System.out.println("==============================================");
+        System.out.println("==============================================");
+        System.out.println("==============================================");
+        System.out.println("==============================================");
+    }
+}
+
+Q15)
+
+class Swap
+ {
+  public static void main(String[] args)
+    {
+       int a =10, b = 20;
+	   System.out.println("Before Swapping");
+	   System.out.println("a = "+a);
+	   System.out.println("b = "+b);
+	   
+	   int t = a;
+	   a = b;
+	   b = t;
+	   
+	   System.out.println("After Swapping");
+	   System.out.println("a = "+a);
+	   System.out.println("b = "+b);
+	   
+    }
+}
+
+Q16)
+
+class Face
+ {
+  public static void main(String[] args)
+    {
+      
+	   System.out.println(" +\"\"\"\"\"+");
+	   System.out.println("[| o o |]" );
+	   System.out.println(" |  ^  |");
+	   System.out.println(" | '-' |");
+	   System.out.println(" +-----+");
+	  
+    }
+}
+
+Q17)
+
+
+ 
+ 
+ 
+ 
